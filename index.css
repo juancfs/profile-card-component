@@ -1,0 +1,110 @@
+@font-face {
+  font-family: KumbhSans-Regular;
+  src: url("./fonts/KumbhSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: KumbhSans-Bold;
+  src: url("./fonts/KumbhSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: KumbhSans-Light;
+  src: url("./fonts/KumbhSans-Light.ttf");
+}
+
+body {
+  background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+  background-position: right 50vw bottom 20vh, left 45vw top 37vh;
+  background-repeat: no-repeat;
+  margin: 0;
+  background-color: hsl(185, 75%, 39%);
+  font-family: KumbhSans-Regular, serif;
+  text-align: center;
+}
+
+.main-container {
+  display: inline-block;
+  margin: 6.25rem auto 0 auto;
+  height: 21.25rem;
+  width: 340px;
+}
+
+.top-section {
+  background-image: url("./images/bg-pattern-card.svg");
+  border-radius: 0.9375rem 0.9375rem 0 0;
+  height: 37%;
+  position: relative;
+}
+
+.middle-section {
+  background-color: #ffffff;
+  border-bottom: solid 0.0625rem #E5E8E8;
+  height: 38%;
+  padding: 0;
+}
+
+.bottom-section {
+  background-color: #ffffff;
+  border-radius: 0 0 0.9375rem 0.9375rem;
+  padding-top: 1.2rem;
+  height: 20%;
+  
+}
+
+.age {
+  color: hsl(0, 0%, 59%);
+  font-size: 1.1rem;
+  margin-left: -0.25rem;
+}
+
+.city {
+  font-size: 0.9rem;
+}
+
+.name {
+  font-family: KumbhSans-Bold;
+  margin-top: 20%;
+}
+
+.photo {
+  background-color: white; /*Removes the cyan line between the photo's border and the photo*/
+  border: 0.35rem;
+  border-color: white;
+  border-style: solid;
+  border-radius: 100%;
+  position: relative;
+  top: 50%;
+  width: 32%;
+}
+
+p {
+  display: inline-block;
+  margin: 0.1875rem 3% 0.1875rem;
+}
+
+.bottom-section div {
+  display: inline-block;
+}
+
+.numbers {
+  font-family: KumbhSans-Bold;
+  font-size: 1.1rem;
+}
+
+.social-stats {
+  font-family: KumbhSans-Light;
+  font-size: 0.6rem;
+  letter-spacing: 2px;
+}
+
+.attribution {
+  color: white;
+}
+
+.attribution a {
+  color: white;
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+}
